@@ -16,8 +16,7 @@ a
     text-decoration: none;
     font-family: Impact;
     padding: 10px;
-    font-size: 20pt;
-    color: rgb(212, 46, 110);
+    font-size: 16pt;
 }
 
 a:hover
@@ -29,8 +28,8 @@ a:hover
 .header
 {
     width: 100%;
-    background-color: plum;
-    padding-bottom: 25px;
+    background-color: rgb(213, 123, 240);
+    padding-bottom: 30px;
 }
 
 .slider
@@ -75,8 +74,37 @@ a:hover
 .content
 {
     text-align: justify;
-    font-family: 'Dancing Script', cursive;
+    font-family:inherit;
 }
 
+table, tr, td, th
+{
+    border: 1px solid purple;
+    border-collapse: collapse;
+}
 
+td
+{
+    padding: 5px;
+}
 
+tr
+{
+    background-color: rgb(233, 200, 220);
+}
+
+tr:nth-child(odd)
+{
+    background-color: palevioletred;
+}
+
+th
+{
+    background-color: black;
+    color: beige;
+}
+
+tr:hover
+{
+    background-color: fuchsia;
+}
