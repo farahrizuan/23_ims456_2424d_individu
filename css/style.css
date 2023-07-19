@@ -197,3 +197,13 @@ a:hover
     background-color: rgb(235, 225, 208);
     padding-bottom: 400px;
 }
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    /* CSS rules specific to mobile devices */
+}
+
+/* Styles for tablets and larger screens */
+@media (min-width: 768px) {
+    /* CSS rules specific to tablets and larger screens */
+}
